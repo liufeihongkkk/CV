@@ -1,0 +1,16 @@
+﻿(数据类型错误)
+1.join() argument must be str or bytes, not 'NoneType'
+a.把ocr_path打印出来
+    >>result:输出none
+    >>solution:直接给出路径
+(符号错误)
+1.No such file or directory: '/home/pi/Downloads/TalosLibraryMate/TestImage\\Chapter1ScreenShot-NoSpoiler.png'
+a.将Image.open('{}\\{}'.format(path.screenshots, file))反斜杠换为斜杠
+    >>result:输出的识别结果不对(输出问题)
+    >>solution:换一张图片试一下
+        >>result:没输出(输出问题)
+        >>solution:image_to_string的参数改一下
+            >>result:仍然没有反应
+            >>solution:尝试将之前构建产生的新文件删除//即是否是因为还是之前的cache
+                >>result:仍然没反应
+                >?solution:give up

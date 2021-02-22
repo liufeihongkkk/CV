@@ -1,0 +1,13 @@
+main()
+    process_ocr()
+        1.构建截图的对象path
+        2.构建图片转换日志的对象scan_logs
+            self.TPD=TlmPathData()
+                1.directory初始化
+                2.paths_location初始化
+                3.file_paths初始化_path_information()
+                    generate_initial_directories()
+                        1.设置OCR的路径
+                        2.set_screenshots_path
+        3.循环遍历图片并转化
+        4.输出扫描结束
