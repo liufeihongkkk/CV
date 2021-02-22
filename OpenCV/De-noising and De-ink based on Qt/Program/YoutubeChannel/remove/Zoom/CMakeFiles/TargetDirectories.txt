@@ -1,0 +1,3 @@
+/home/pi/YoutubeChannel/remove/Zoom/CMakeFiles/rebuild_cache.dir
+/home/pi/YoutubeChannel/remove/Zoom/CMakeFiles/edit_cache.dir
+/home/pi/YoutubeChannel/remove/Zoom/CMakeFiles/target.dir

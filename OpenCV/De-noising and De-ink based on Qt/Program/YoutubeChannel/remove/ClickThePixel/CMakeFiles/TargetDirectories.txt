@@ -1,0 +1,3 @@
+/home/pi/YoutubeChannel/remove/ClickThePixel/CMakeFiles/rebuild_cache.dir
+/home/pi/YoutubeChannel/remove/ClickThePixel/CMakeFiles/edit_cache.dir
+/home/pi/YoutubeChannel/remove/ClickThePixel/CMakeFiles/target.dir

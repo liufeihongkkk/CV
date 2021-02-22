@@ -1,0 +1,3 @@
+/home/pi/YoutubeChannel/drawing/CMakeFiles/rebuild_cache.dir
+/home/pi/YoutubeChannel/drawing/CMakeFiles/edit_cache.dir
+/home/pi/YoutubeChannel/drawing/CMakeFiles/target.dir

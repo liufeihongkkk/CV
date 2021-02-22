@@ -1,0 +1,37 @@
+main()
+        cvLoadImage()
+        CV_RGB2GRAY  //转化为灰度图g
+        cvConvertScale()   //位深度转化gg
+        /*1.图像深度: 一个像素点所用到存储空间为2的位数次方
+           2.通道: 单通道(灰度图象);三通道(RGB图像)
+        */
+        定义localMean、localVar、f    //定义均值、方差、输出图像
+        得到滤波模板   //就是创造矩阵空间
+        cvZero()     //将滤波模板的每个像素都置为0
+        for(遍历矩阵的每个元素){
+            1.获取pData //利用data.ptr与mat->step计算距离指针头部的位置
+            2.将每个元素的值设为1
+        }
+        定义滤波模板数值和prod和与方差和sumlocalVar
+        cvFilter2D() 
+        /*1.卷积:图片是f(x),模板是g(x),将模板在图像中移动，每到一个位置，就
+        把f(x)和g(x)定义域相交的元素进行乘积并求和，得到新的图像一点(就是卷积后的图像)
+           2.mat: 单通道浮点矩阵
+        */
+        得到dst、dst2
+        for{
+        利用dst为每个像素的均值localMean赋值，利用localMean和dst2为方差localVar赋值，输出图像f就是灰度图-均值 //利用论文的公式 
+        }
+        利用localVar得到噪声平均值noise/count
+        利用g = localVar - noise求得gg(为深度转化用到的)
+        gg与0、localVar和noise都取最大值
+        一系列对输出图像f的加减乘的操作
+        利用cvConvertScale(f,ff)得到滤波后的图像ff
+        最后释放用到的资源cvReleaseImage()
+
+      
+
+
+
+
+

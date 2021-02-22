@@ -1,0 +1,26 @@
+#include <opencv2\opencv.hpp>
+#include <iostream>
+#include <opencv2/core/core.hpp>
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <stdio.h>
+
+
+int main()
+{
+    Mat3b bgr = imread("/home/pi/Downloads/printer/remove/number.png");
+
+    Mat3b hsv;
+    cvtColor(bgr, hsv, COLOR_BGR2HSV);
+
+    Mat1b mask1, mask2;
+    inRange(hsv, Scalar(0, 70, 50), Scalar(10, 255, 255), mask1);
+    inRange(hsv, Scalar(170, 70, 50), Scalar(180, 255, 255), mask2);
+
+    Mat1b mask = mask1 | mask2;
+
+    imshow("Mask", mask);
+    waitKey();
+
+    return 0;
+}

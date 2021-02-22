@@ -1,0 +1,103 @@
+--Python Learning--
+--if--else--
+>>> e= 7
+>>> f = 8
+>>> if e>f:
+	print("e is bigger than f")
+elif e==f:
+	print("e equals f")
+else:
+	print("e is smaller than f")
+
+	
+e is smaller than f
+-- square calculate--
+>>> e = e** 2
+>>> print(e)
+49
+# as note
+>>> def  fuction1():
+	print("this is a function")
+
+>>> fuction1()
+this is a function
+--Lists--
+>>> a= [3,10,-1]
+>>> print(a)
+[3, 10, -1]
+>>> a.append(1)
+>>> print(a)
+[3, 10, -1, 1]
+>>> a.append("hello")
+>>> print(a)
+[3, 10, -1, 1, 'hello']
+>>> a.append([1,2])
+>>> print(a)
+[3, 10, -1, 1, 'hello', [1, 2]]
+>>> a.pop()
+[1, 2]
+>>> print(a)
+[3, 10, -1, 1, 'hello']
+>>> print(a[0])
+3
+--Loops--
+>>> for element in a:
+	print(element)
+3
+10
+-1
+1
+hello
+>>> c= list(range(1, 5))
+>>> print(c)
+[1, 2, 3, 4]
+>>> while j<5:
+	total2+=j
+	j+=1
+>>> print(total2)
+10
+>>> for i in range(len(a)):
+	for j in range(i+1):
+             print(a[i])     
+3
+10
+10
+-1
+-1
+-1
+1
+1
+1
+1
+hello
+hello
+hello
+hello
+hello
+--dictionaries--
+>>> d = {}
+>>> d["George"]= 24
+>>> print(d)
+{'George': 24}
+>>> for key,value in d.items():
+	print("key")
+	print(key)
+	print("value")
+	print(value)
+key
+George
+value
+24
+--classes and objects--
+>>> class Robot:
+	def introduce(self):
+		print("this is a class")
+
+>>> r1= Robot()
+>>> r1.name = "Tom"
+>>> r1.color ="red"
+>>> r1.weight = 30
+>>> r1.introduce()
+this is a class
+>>> r2= Robot()
+>>> r2.name ="Jack"

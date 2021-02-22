@@ -1,0 +1,3 @@
+/home/pi/YoutubeChannel/remove/Rgb2Hsv/CMakeFiles/rebuild_cache.dir
+/home/pi/YoutubeChannel/remove/Rgb2Hsv/CMakeFiles/edit_cache.dir
+/home/pi/YoutubeChannel/remove/Rgb2Hsv/CMakeFiles/target.dir

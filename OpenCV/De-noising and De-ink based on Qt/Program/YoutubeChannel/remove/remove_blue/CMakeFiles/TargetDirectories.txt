@@ -1,0 +1,3 @@
+/home/pi/YoutubeChannel/remove/remove_blue/CMakeFiles/rebuild_cache.dir
+/home/pi/YoutubeChannel/remove/remove_blue/CMakeFiles/edit_cache.dir
+/home/pi/YoutubeChannel/remove/remove_blue/CMakeFiles/target.dir
